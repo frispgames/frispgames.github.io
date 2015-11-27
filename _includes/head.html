@@ -1,0 +1,18 @@
+<head>
+  {% if page.seo_title %}
+    <title>{{site.name}} - {{page.seo_title}}</title>
+  {% else %}
+    <title>{{site.name}}</title>
+  {% endif %}
+  
+  <meta charset="utf-8">
+  <meta name="keywords" content="{{page.meta_keywords | escape}}">
+  <meta name="description" content="{{page.meta_description | escape}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link href='//fonts.googleapis.com/css?family=Merriweather:400,900,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
+</head>

@@ -1,0 +1,84 @@
+.blog {
+    color: #000;
+}
+.blog,
+.blog-post {
+    color: #000;
+    max-width: 960px;
+    width: 80%;
+    margin: 0 auto;
+
+    h2, h3, .user-info, .tags {
+        text-align: center;
+    }
+    ul {
+        margin-left: 2.5rem;
+    }
+
+    .user-info {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .user-info {
+        .post-meta-data {
+            font-style: italic;
+        }
+        .avatar {
+            img {
+                width: 50px;
+                border-radius: 25px;
+            }
+        }
+        .post-meta-data {
+            margin: 10px;
+        }
+    }
+
+    article.post,
+    .posts {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .label {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 75%;
+        font-weight: bold;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+    }
+
+    .label-primary {
+        background-color: #337ab7;
+    }
+    .fa-3 {
+        font-size: 18px;
+    }
+}
+
+.disclaimer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 80%;
+}
+
+pre[class*="language-"] {
+    margin: 1em 0; 
+}
+
+@media only screen and (max-width: 960px) {
+    .blog,
+    .blog-post {
+        article.post,
+        .posts {
+            width: 100%;
+        }
+    }
+}

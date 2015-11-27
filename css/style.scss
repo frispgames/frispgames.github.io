@@ -1,0 +1,126 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import 'modules/variables';
+@import 'modules/mixins';
+
+@import 'vendor/normalize.css';
+@import 'vendor/skeleton.css';
+@import 'vendor/slicknav.css';
+
+@import 'modules/base';
+@import 'modules/blog';
+@import 'modules/header';
+@import 'modules/nav';
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+section {
+    padding: 150px 0;
+    text-align: center;
+    overflow: hidden;
+    p {
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .section__break {
+        width: 150px;
+        height: 4px;
+        background-color: $body-color;
+        margin: 40px auto;
+    }
+    &.section--color {
+        color: $body-alternate-color;
+        background-color: $body-color;
+        width: 100%;
+        .section__break {
+            background-color: #FFFFFF;
+        }   
+    }
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Merriweather', serif;
+        font-weight: 800;
+    }
+    #social-media {
+        font-size: 50px;
+        padding: 25px 0;
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #CCCCCC;
+            text-decoration: none;
+        }
+    }
+}
+section#footer {
+    padding: 25px 0;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.values {
+    text-align: center;
+    h2 {
+        font-size: 22px;
+        margin: 14px 0 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+.game-content {
+    text-align: left;
+    h2 {
+        display: inline-block;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #FFFFFF;
+    }
+    p {
+        margin-top: 30px;
+        font-size: 17px;
+        line-height: 34px;
+    }
+}
+
+.game-image {
+    position: relative;
+    img {
+        margin-top: 60px;
+    }
+}
+
+.about {
+    margin-bottom: 30px;
+    img {
+        border-radius: 75px;
+    }
+    .name {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    .position {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+
+}
+
+#pop {
+    padding-bottom: 80px;
+}

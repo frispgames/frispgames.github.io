@@ -1,0 +1,20 @@
+.frisp-header {
+    color: $body-alternate-color;
+    padding: 100px 0;
+    background: linear-gradient(to bottom, $gradient-top 0%, $gradient-bottom 100%);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
+    h2 {
+        font-size: 26px;
+        margin: 0;
+    }
+}
+
+.frisp-header__logo {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
