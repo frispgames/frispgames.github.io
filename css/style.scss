@@ -14,6 +14,7 @@
 @import 'modules/blog';
 @import 'modules/header';
 @import 'modules/nav';
+@import 'modules/footer';
 
 #particles-js {
     position: absolute;
@@ -26,8 +27,10 @@
 
 section {
     padding: 50px 0;
+    color: rgba(0,0,0,0.55);
     text-align: center;
     overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
     p {
         font-family: 'Montserrat', sans-serif;
         font-size: 18px;
@@ -48,26 +51,21 @@ section {
         }   
     }
     h1,h2,h3,h4,h5,h6 {
-        font-family: 'Montserrat', sans-serif;;
+        font-family: 'Montserrat', sans-serif;
+        color: rgba(0,0,0,0.75);
         font-weight: 800;
     }
     #social-media {
-        font-size: 50px;
-        padding: 25px 0;
-        a {
-            color: #FFFFFF;
-            text-decoration: none;
+      font-size: 50px;
+      padding: 25px 0;
+      a {
+        height: 100%;
+        text-decoration: none;
+        &:hover {
+            color: $body-color;
         }
-        a:hover {
-            color: #CCCCCC;
-            text-decoration: none;
-        }
+      }
     }
-}
-section#footer {
-    padding: 25px 0;
-    font-size: 14px;
-    line-height: 15px;
 }
 
 .values {
@@ -123,4 +121,8 @@ section#footer {
 
 #pop {
     padding-bottom: 80px;
+}
+
+#why {
+  background-color: #F8F8F8;
 }

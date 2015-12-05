@@ -1,6 +1,7 @@
 .frisp-nav {
     width: 100%;
-    background-color: #E8E8E8;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
     font-family: 'Montserrat', sans-serif;
     @include breakpoint(phone) {
         display: none;
