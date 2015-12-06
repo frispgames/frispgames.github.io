@@ -69,6 +69,10 @@ section {
     }
 }
 
+section#games {
+    padding: 25px 0;
+}
+
 .values {
     text-align: center;
     h2 {
@@ -85,7 +89,7 @@ section {
         max-height: 325px;
     }
     text-align: center;
-    margin-bottom: 10px
+    margin-bottom: 25px
 }
 .game-content {
     text-align: center;
