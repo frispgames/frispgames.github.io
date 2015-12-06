@@ -40,7 +40,7 @@ section {
     .section__break {
         width: 150px;
         height: 4px;
-        background-color: $body-color;
+        background-color: rgba(0,0,0,0.75);
         margin: 40px auto;
     }
     &.section--color {
