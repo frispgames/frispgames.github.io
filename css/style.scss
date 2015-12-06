@@ -110,6 +110,8 @@ section {
     max-width: 853px; /* you have to have a size or this method doesn't work */
     max-height: 480px;
     margin: 0 auto;
+    height: 100%;
+    width: 100%;
 }
 
 .video-container {
