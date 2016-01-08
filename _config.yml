@@ -7,18 +7,24 @@
 
 # Site settings
 title: Frisp Games
-email: your-email@domain.com
+email: info@frispgames.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
+twitter_username: frispgames
+github_username:  frispgames
+#url: "http://www.frispgames.com" # the base hostname & protocol for your site
+url: "http://localhost:4000"
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+gems: [jekyll-paginate]
+permalink:       /:title/
+
+disqus: true
+disqus_shortname: 'kiwiprogrammer'
 
 sass:
   sass_dir: _sass

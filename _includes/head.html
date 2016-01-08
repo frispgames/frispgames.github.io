@@ -1,4 +1,4 @@
-<head>
+  <head>
   {% if page.seo_title %}
     <title>{{site.title}} - {{page.seo_title}}</title>
   {% else %}
@@ -11,12 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link rel="apple-touch-icon" href="touch-icon-iphone.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+  <link rel="apple-touch-icon" href="{{ site.url }}/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/touch-icon-ipad-retina.png">
 
   <link href='//fonts.googleapis.com/css?family=Merriweather:400,900,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
+  <link rel="stylesheet" href="{{site.url}}/css/style.css">
 </head>
