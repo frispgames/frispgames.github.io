@@ -25,10 +25,13 @@
     opacity: 0.5;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 section {
     padding: 50px 0;
     color: rgba(0,0,0,0.55);
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     overflow: hidden;
     border-bottom: 1px solid rgba(0,0,0,0.08);
