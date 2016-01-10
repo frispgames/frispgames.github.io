@@ -1,25 +1,27 @@
 #post-list {
-  margin-top: 80px;
+  margin-top: 25px;
 
   h2 {
-    font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #aaa;
     max-width: 600px;
     margin-top: 2px;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgba(0,0,0,0.5);
   }
 
   .dates {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
     color: #bbb;
+    font-size:  15px;
   }
   
   li {
     list-style-type: none;
     margin-bottom: 20px;
     list-style-position: inside;
+    text-align: left;
   }
   
   li+li {
@@ -30,7 +32,8 @@
   a {
     color: #333;
     display: block;
-    font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: bold;
     -webkit-transition: all 0.15s ease;
     -moz-transition: all 0.15s ease;
     -ms-transition: all 0.15s ease;
@@ -44,3 +47,32 @@
     padding: 0;
   }
 }
+code {
+  font-family: Menlo,Monaco,Courier;
+  background-color: #EEE;
+  font-size: 14px;
+}
+.posts {
+  section { padding: 0; }
+
+  article {
+    margin: 80px 0 0 0;
+
+    pre code {
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      .headline {
+        font-size: 13px;
+        margin: -5px 0 40px 0;
+        color: #b2b9be;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-block;
+      }
+    }
+  }
+}
+#post-body { text-align: left; }

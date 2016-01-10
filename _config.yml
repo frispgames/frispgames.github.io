@@ -42,4 +42,4 @@ defaults:
             path: "" # empty string for all files
             type: posts
         values:
-            layout: default
+            layout: post
