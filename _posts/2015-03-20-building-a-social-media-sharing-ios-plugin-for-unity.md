@@ -3,6 +3,7 @@ title:  Building a social media sharing iOS plugin for Unity.
 date:   2015-03-20 15:20:00
 description: A tutorial on how to build an objective-c class that provides the functionality of native sharing on iPhone devices for Unity, this supports Facebook and Twitter.
 keywords: [Objective-C, Unity, Game Development, Unity Asset, Frisp Social, Frisp Social Unity Asset, Sharing On Facebook, Sharing On Twitter]
+author: michael
 ---
 
 After <a target="_blank" href="http://www.kiwiprogrammer.com/writing-a-class-to-interact-with-an-android-plugin-in-unity/">creating an Android library</a> for sharing, I needed to support iPhone too. Unity doesn’t support native sharing for iPhone, so I had to create an Objective-C plugin that can be used in Unity. Unlike Android, the files don’t need to be packaged, they just need to be added into the Unity project. One of the nice things about working with Objective-C in Unity, is that the files can be symlinked into the xcode project from Unity. This means when you make a change in xcode the same change is made in the Unity project.

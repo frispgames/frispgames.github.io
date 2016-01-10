@@ -3,6 +3,7 @@ title:  Sharing a screenshot on iOS using Swift and Sprite Kit.
 date:   2015-02-13 10:18:00
 description: A tutorial on writing code to share a screenshot in iOS when developing a game using Swift and Sprite Kit.
 keywords: [Swift, Sprite Kit, Game Development, Sharing on Twitter, Sharing on Facebook]
+author: michael
 ---
 
 One way I have found that works well for marketing a game is to give players the ability to share a screenshot of their score on Twitter or Facebook. It works well because as soon as people start sharing their score, their friends get curious and want to play too. In this post I will run through how I implemented the ability to share a screenshot to Twitter or Facebook using Swift and Sprite Kit.

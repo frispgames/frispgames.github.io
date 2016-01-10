@@ -3,6 +3,7 @@ title:  Object pooling in Unity
 date:   2015-11-22 14:16:00
 description: Information on object pooling in Unity including the Unity asset I wrote for abstracting object pooling.
 keywords: [object pooling, unity]
+author: michael
 ---
 
 During the development of a game I was building for work I started to notice that some frames would randomly jump for a short span of time. After observing the game in scene mode I soon noticed that it was when objects were being instantiated and destroyed that the jumps would occur. After doing some research I came across the concept of object pooling which is where you keep a set of similar game objects in a pool that you recycle instead of instantiating and destroying them.

@@ -3,6 +3,7 @@ title:  Writing a class to interact with an iOS plugin in Unity.
 date:   2015-03-22 10:18:00
 description: A tutorial on how to create a C# class that can interact with an objective-c class for interfacing with the native iOS social media sharing libraries.
 keywords: [iOS, Objective-C, Unity, Sharing To Facebook, Sharing To Twitter, Game Development, Frisp Social, Frisp Social Unity Asset, Unity Asset]
+author: michael
 ---
 
 Now that I have <a target="_blank" href="http://www.kiwiprogrammer.com/building-a-social-media-sharing-ios-plugin-for-unity">built an iOS plugin</a> for sharing I need to implement a wrapper class for it in C# for Unity. This post will go through the wrapper class code that I put together to add the feature of sharing to Facebook or Twitter for a Unity game for iPhone. I will go into detail about how to make the Objective-C methods available to the C# wrapper class.

@@ -3,6 +3,7 @@ title:  Adding frameworks to Xcode when building a project in Unity.
 date:   2015-10-25 11:11:00
 description: Tutorial on how to write a post processor script to automatically add iOS frameworks when building an iPhone project in Unity.
 keywords: [iOS frameworks, Unity, iPhone]
+author: michael
 ---
 
 During the development of a game I was building with friends I needed to use the <a target="_blank" href="https://developers.google.com/admob/ios/download#downloadios">Google Mobile Ads Framework</a> so that I could serve ads from the <a target="_blank" href="http://www.google.com.au/admob/">Admob</a> network. Every time I built the project for the iPhone I would have to add the framework manually in Xcode then compile it for the iPhone. After about 30 builds it started to get a bit cumbersome so I decided to investigate ways to automate the process.

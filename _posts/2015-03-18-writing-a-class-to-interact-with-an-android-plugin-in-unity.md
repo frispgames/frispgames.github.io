@@ -3,6 +3,7 @@ title:  Writing a class to interact with an Android plugin in Unity.
 date:   2015-03-18 12:51:00
 description: A tutorial on how to create a C# class that can interact with an Android class for interfacing with the native android social media sharing libraries.
 keywords: [Unity, Unity Asset, Android, Game Development, C#, Frisp Social, Frisp Social Unity Asset]
+author: michael
 ---
 
 During the <a target="_blank" href="http://www.kiwiprogrammer.com/building-a-social-media-sharing-android-plugin-for-unity">previous post</a> I went through how to build an Android social media library for unity. This post will go through how I consumed the library in a C# script in Unity to be able to share a screenshot to Twitter or Facebook. Having the ability to create android libraries and use them inside unity gives you the power to do anything that the android SDK can do.

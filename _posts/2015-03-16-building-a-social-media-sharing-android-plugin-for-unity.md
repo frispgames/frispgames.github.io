@@ -3,6 +3,7 @@ title:  Building a social media sharing Android plugin for Unity.
 date:   2015-03-16 10:55:00
 description: A tutorial on how to build an Android plugin that provides the functionality of native sharing on Android devices for Unity.
 keywords: [Android, Java, Unity Asset, Unity, Sharing On Facebook, Sharing On Twitter, Game Development, Frisp Social]
+author: michael
 ---
 
 When writing a game with friends using Swift we had a feature where players could share their score via a screenshot to social media. I needed to implement this in the Unity version of the game for both Android and iPhone. Unity doesn’t provide an API for sharing to social media on Android and the SDK’s require you to set up Facebook and Twitter applications. The more efficient way is to use native sharing. Native sharing doesn’t require the player to authorize Facebook or Twitter applications when wanting to share their screen. To do this I needed to implement an Android library that Unity could interact with.

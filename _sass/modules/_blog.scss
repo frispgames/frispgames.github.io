@@ -63,6 +63,7 @@ code {
     }
     header {
       text-align: center;
+      h2 { color: rgba(0,0,0,0.75); }
       .headline {
         font-size: 13px;
         margin: -5px 0 40px 0;
@@ -72,6 +73,12 @@ code {
         letter-spacing: 2px;
         display: inline-block;
       }
+    }
+    #avatar img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
     }
   }
 }

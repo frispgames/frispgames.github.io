@@ -3,6 +3,7 @@ title:  My experience when searching for an ad serving Unity asset.
 date:   2015-03-12 16:25:00
 description: My experience when searching for a Unity asset for iPhone and Android builds that could serve ads from multiple ad networks.
 keywords: [Unity, Unity Asset Store, iAd, Admob, Ultimate Mobile, Unity Asset]
+author: michael
 ---
 
 When building a game for iPhone and Android devices for Unity the question of how to monetize always comes up. There is always the concern of wanting to maintain a crisp level of game play while displaying non invasive adverts. A decision made in a team I'm apart of was to display banner ads during lapses in actual gameplay such as in between deaths. This technique was used by the popular game <a target="_blank" href="http://www.dotgears.com/apps/app_flappy.html">Flappy Bird</a>, which managed to <a target="_blank" href="http://www.theverge.com/2014/2/5/5383708/flappy-bird-revenue-50-k-per-day-dong-nguyen-interview">make $50,000 a day from ads</a>.

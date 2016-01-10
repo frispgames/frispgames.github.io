@@ -3,6 +3,7 @@ title:  Abstracting components and building them into Unity assets.
 date:   2015-10-18 10:19:00
 description: Abstracting the social media sharing component from a game I worked on, and creating a unity asset out of it that can be reused in other projects.
 keywords: [Unity Package, C#, Unity, Unity assets]
+author: michael
 ---
 
 Large games in Unity tend to have a lot of code, the more code you have, the harder it is to keep track of side effects. I had first hand experience in this when the social media sharing functionality stopped working in a game I was building with friends.
