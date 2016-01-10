@@ -52,6 +52,7 @@ code {
   background-color: #EEE;
   font-size: 14px;
 }
+
 .posts {
   section { padding: 0; }
 
@@ -82,4 +83,15 @@ code {
     }
   }
 }
-#post-body { text-align: left; }
+#post-body {
+  text-align: left;
+  figure {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  section#post-list {
+    .dates { display: none; }
+  }
+}
