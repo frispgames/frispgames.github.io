@@ -29,3 +29,17 @@ disqus_shortname: 'kiwiprogrammer'
 sass:
   sass_dir: _sass
   style: compressed
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: default
